@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,210,178,1) 100%); 
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+.heading {
+    font-size: 70px;
+    padding-top: 270px;
+    margin: 0;
+}
+
+.paragraph {
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.paragraph p {
+    padding-top: 25px;
+}
+
+a {
+    padding-top: 50px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffebcd;
+    text-decoration: underline;
+}

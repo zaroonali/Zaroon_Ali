@@ -1,0 +1,48 @@
+<!-- Created by Faiq Ali -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zaroon Ali</title>
+        <link rel="stylesheet" href="./css/gallery.css">
+    </head>
+    <body>
+    
+        <div class="full-img" id="fullImgBox">
+            <img src="./images/gallery/Img (1).jpg" id="fullImg">
+            <span onclick="closeFullImg()">X</span>
+        </div>
+        
+        <div class="img-gallery">
+            
+            <img src="./images/gallery/Img (1).jpg" onclick="openFullImg(this.src)">
+            <img src="./images/gallery/Img (2).jpg" onclick="openFullImg(this.src)">
+            <img src="./images/gallery/Img (3).jpg" onclick="openFullImg(this.src)">
+            <img src="./images/gallery/Img (4).jpg" onclick="openFullImg(this.src)">
+            <img src="./images/gallery/Img (5).jpg" onclick="openFullImg(this.src)">
+            <img src="./images/gallery/Img (6).jpg" onclick="openFullImg(this.src)">
+            <img src="./images/gallery/Img (7).jpg" onclick="openFullImg(this.src)">
+            <img src="./images/gallery/Img (8).jpg" onclick="openFullImg(this.src)">
+            <img src="./images/gallery/Img (9).jpg" onclick="openFullImg(this.src)">
+            <img src="./images/gallery/Img (10).jpg" onclick="openFullImg(this.src)">
+            <img src="./images/gallery/Img (11).jpg" onclick="openFullImg(this.src)">
+            <img src="./images/gallery/Img (12).jpg" onclick="openFullImg(this.src)">
+
+        </div>
+
+        <script>
+            var fullImgBox = document.getElementById("fullImgBox");
+            var fullImg = document.getElementById("fullImg");
+
+            function openFullImg(pic){
+                fullImgBox.style.display = "flex";
+                fullImg.src = pic;
+            }
+
+            function closeFullImg(){
+                fullImgBox.style.display = "none";
+            }
+        </script>
+
+    </body>
+</html>
